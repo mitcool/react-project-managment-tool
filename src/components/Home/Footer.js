@@ -1,23 +1,26 @@
-  <!-- end contact section -->
-  <div class="footer_bg">
-    <!-- info section -->
-    <section class="info_section layout_padding2-bottom">
-      <div class="container">
-        <h3 class="">
+import React from 'react'
+
+const Footer = () => {
+  return (
+    
+<div className="footer_bg">
+    <section className="info_section layout_padding2-bottom">
+      <div className="container">
+        <h3 className="">
           BigWing
         </h3>
       </div>
-      <div class="container info_content">
+      <div className="container info_content">
 
         <div>
-          <div class="row">
-            <div class="col-md-6 col-lg-4">
-              <div class="d-flex">
+          <div className="row">
+            <div className="col-md-6 col-lg-4">
+              <div className="d-flex">
                 <h5>
                   Useful Link
                 </h5>
               </div>
-              <div class="d-flex ">
+              <div className="d-flex ">
                 <ul>
                   <li>
                     <a href="">
@@ -45,7 +48,7 @@
                     </a>
                   </li>
                 </ul>
-                <ul class="ml-3 ml-md-5">
+                <ul className="ml-3 ml-md-5">
                   <li>
                     <a href="">
                       Loram ipusm
@@ -74,13 +77,13 @@
                 </ul>
               </div>
             </div>
-            <div class="col-md-6 col-lg-4">
-              <div class="d-flex">
+            <div className="col-md-6 col-lg-4">
+              <div className="d-flex">
                 <h5>
                   The Services
                 </h5>
               </div>
-              <div class="d-flex ">
+              <div className="d-flex ">
                 <ul>
                   <li>
                     <a href="">
@@ -108,7 +111,7 @@
                     </a>
                   </li>
                 </ul>
-                <ul class="ml-3 ml-md-5">
+                <ul className="ml-3 ml-md-5">
                   <li>
                     <a href="">
                       Lorem ipsum dolor
@@ -137,13 +140,13 @@
                 </ul>
               </div>
             </div>
-            <div class="col-md-6 col-lg-4">
-              <div class="d-flex">
+            <div className="col-md-6 col-lg-4">
+              <div className="d-flex">
                 <h5>
                   Contact Us
                 </h5>
               </div>
-              <div class="d-flex ">
+              <div className="d-flex ">
                 <ul>
                   <li>
                     <a href="">
@@ -171,7 +174,7 @@
                     </a>
                   </li>
                 </ul>
-                <ul class="ml-3 ml-md-5">
+                <ul className="ml-3 ml-md-5">
                   <li>
                     <a href="">
                       Lorem ipsum
@@ -202,8 +205,8 @@
             </div>
           </div>
         </div>
-        <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center align-items-lg-baseline">
-          <div class="social-box">
+        <div className="d-flex flex-column flex-lg-row justify-content-between align-items-center align-items-lg-baseline">
+          <div className="social-box">
             <a href="">
               <img src="images/fb.png" alt=""/>
             </a>
@@ -218,7 +221,7 @@
               <img src="images/instagram1.png" alt=""/>
             </a>
           </div>
-          <div class="form_container mt-5">
+          <div className="form_container mt-5">
             <form action="">
               <label for="subscribeMail">
                 Newsletter
@@ -234,22 +237,14 @@
 
     </section>
 
-    <!-- end info_section -->
-
-    <!-- footer section -->
-    <section class="container-fluid footer_section">
+    <section className="container-fluid footer_section">
       <p>
         © 2019 All Rights Reserved By
         <a href="https://html.design/">Free Html Templates</a>
       </p>
     </section>
-    <!-- footer section -->
-  </div>
+  </div>      
+  )
+}
 
-
-  
-
-
-
-</body>
-</html>
+export default Footer
